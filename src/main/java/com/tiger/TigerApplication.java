@@ -15,8 +15,7 @@ import org.springframework.boot.SpringApplication;
 @EnableScheduling
 public class TigerApplication {
 	public static void main(String[] args) {
-		
-		  
+
 		/*
 		 * Dotenv dotenv = Dotenv.load();
 		 * 
@@ -44,8 +43,8 @@ public class TigerApplication {
 		 * dotenv.get("LINKEDIN_CLIENT_SECRET"));
 		 * System.setProperty("linkedin.redirect-uri",
 		 * dotenv.get("LINKEDIN_REDIRECT_URI"));
+		 * 
 		 */
-		 
 		SpringApplication.run(TigerApplication.class, args);
 	}
 }
